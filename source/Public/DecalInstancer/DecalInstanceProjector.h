@@ -30,7 +30,7 @@ protected:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
     TSubclassOf<AActor> ActorToSpawn;
     
-    // Alternatively, spawn a simple static mesh actor with this mesh
+    // Alternatively, spawn a simple static mesh actor with this mesh NOT WORKING AT THE MOMENT
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
     UStaticMesh* StaticMeshToSpawn;
     
